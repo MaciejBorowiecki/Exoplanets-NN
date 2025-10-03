@@ -1,0 +1,56 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+develop-eggs/
+.installed.cfg
+*.manifest
+*.spec
+
+# Virtualenv / venv
+venv/
+.env/
+.venv/
+env/
+ENV/
+Pipfile.lock
+poetry.lock
+
+# Jupyter / IPython
+.ipynb_checkpoints
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ========================
+# PyCharm / IntelliJ IDEA
+# ========================
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf/
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# pliki HTTP requests z PyCharma
+.idea/httpRequests/
+
+# inne lokalne cache
+*.iml
+out/
